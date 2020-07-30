@@ -55,9 +55,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\CharacterCombat.cs" />
+     <Compile Include="Assets\Scripts\CharacterStats.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
-     <Compile Include="Assets\Scripts\PlayerRay.cs" />
-     <Compile Include="Assets\Scripts\Sword.cs" />
+     <Compile Include="Assets\Scripts\EnemyController.cs" />
+     <Compile Include="Assets\Scripts\EnemyStats.cs" />
+     <Compile Include="Assets\Scripts\EnemyStats1.cs" />
+     <Compile Include="Assets\Scripts\Interactable.cs" />
+     <Compile Include="Assets\Scripts\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Item.cs" />
+     <Compile Include="Assets\Scripts\ItemPickup.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\PlayerMotor.cs" />
+     <Compile Include="Assets\Scripts\Stat.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\PlayerAttack.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\PlayerControllerTest.cs" />
+     <Compile Include="Assets\Scripts\TestScripts\Sword.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Jake/Documents/UnityOwnProjects/EvanJakeFunInTheSun/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
